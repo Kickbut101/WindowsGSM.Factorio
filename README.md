@@ -7,6 +7,7 @@
 ## Installation
 1. Move **Factorio.cs** folder to **plugins** folder
 1. Click **[RELOAD PLUGINS]** button or restart WindowsGSM
+1. You will still need to [make the map file manually](https://wiki.factorio.com/Multiplayer#Dedicated.2FHeadless_server) and place it in your serverfiles\bin\x64\ folder. Name the zip file as \<YourMapName\>_save.zip
 
 ## Additional Command Line options
 [Here](https://wiki.factorio.com/Command_line_parameters)

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text;
 using System.Diagnostics;
+using System.ComponentModel;
 using System.Threading.Tasks;
 using WindowsGSM.Functions;
 using WindowsGSM.GameServer.Engine;
@@ -80,6 +81,7 @@ namespace WindowsGSM.Plugins
             param.Append($" --start-server"); // starting parameter for using the factorio.exe as a server
             param.Append($" \"{shipWorkingBinx64Path}{_serverData.ServerMap}_save.zip\""); // point to the save zip file. We're going to make and assume it's based on DefaultMap name with _save.zip appended - This is going to be in the default shipWorkingPath
             param.Append($" --server-settings \"{shipWorkingDataPath}server-settings.json\"");
+            param.Append(string.IsNullOrWhiteSpace(_serverData.ServerPort) ? string.Empty : $" --port {_serverData.ServerPort}");
             param.Append(string.IsNullOrWhiteSpace(_serverData.ServerParam) ? string.Empty : $" {_serverData.ServerParam}");
 
 
@@ -119,7 +121,6 @@ namespace WindowsGSM.Plugins
                     Error = e.Message;
                     return null; // return null if fail to start
                 }
-
                 p.BeginOutputReadLine();
                 p.BeginErrorReadLine();
                 return p;
