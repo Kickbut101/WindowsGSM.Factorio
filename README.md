@@ -1,4 +1,4 @@
-# WindowsGSM.Mindustry
+# WindowsGSM.Factorio
 🧩 WindowsGSM plugin for supporting Factorio
 
 ## Requirements
