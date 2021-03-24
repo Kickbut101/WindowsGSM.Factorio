@@ -11,6 +11,10 @@ You must also own the game factorio! And you will need to use the "Set Account" 
 1. Click **[RELOAD PLUGINS]** button or restart WindowsGSM
 1. You will still need to [make the map file manually](https://wiki.factorio.com/Multiplayer#Dedicated.2FHeadless_server) and place it in your serverfiles\bin\x64\ folder. Name the zip file as \<YourMapName\>_save.zip
 
+## Known issues
+Factorio as a whole (not just with windowsGSM) doesn't seem to handoff the process ID. So when starting the server it will perpetually be in "Starting" status, instead of "Started".
+
+
 ## Additional Command Line options
 [Here](https://wiki.factorio.com/Command_line_parameters)
 
