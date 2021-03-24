@@ -13,7 +13,7 @@ You must also own the game factorio! And you will need to use the "Set Account" 
 1. Be sure to setup your server settings in the "server-settings.json" file in \servers\1\serverfiles\data directory
 
 ## Known issues
-Factorio as a whole (not just with windowsGSM) doesn't seem to handoff the process ID. So when starting the server it will perpetually be in "Starting" status, instead of "Started".
+Factorio as a whole (not just with windowsGSM) doesn't seem to handoff the process ID. So when starting the server it will perpetually be in "Starting" status, instead of "Started". This also means server commands don't work correctly unless you DON'T check the embedconsole option, and you pipe in your commands to the window that pops up.
 
 
 ## Additional Command Line options
