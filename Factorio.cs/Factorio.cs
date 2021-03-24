@@ -160,7 +160,7 @@ namespace WindowsGSM.Plugins
         {
             return File.Exists(Functions.ServerPath.GetServersServerFiles(_serverData.ServerID, StartPath));
         }
-/*
+
         public bool IsImportValid(string path)
         {
             string importPath = Path.Combine(path, StartPath);
@@ -173,11 +173,11 @@ namespace WindowsGSM.Plugins
             var localBuild = new Installer.SteamCMD();
             return localBuild.GetLocalBuild(_serverData.ServerID, AppId);
         }
-
-        /*public async Task<string> Factorio.GetRemoteBuild()
+            */
+        public async Task<string> Factorio.GetRemoteBuild()
         {
             var remoteBuild = new Installer.SteamCMDAgent();
             return await remoteBuild.GetRemoteBuild(AppId);
-        } */ 
+        }
     }
 }

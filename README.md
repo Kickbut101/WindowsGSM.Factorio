@@ -4,6 +4,8 @@
 ## Requirements
 [WindowsGSM](https://github.com/WindowsGSM/WindowsGSM) >= 1.21.0
 
+You must also own the game factorio! And you will need to use the "Set Account" feature in Windows GSM.
+
 ## Installation
 1. Move **Factorio.cs** folder to **plugins** folder
 1. Click **[RELOAD PLUGINS]** button or restart WindowsGSM
