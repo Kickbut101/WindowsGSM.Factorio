@@ -1,5 +1,5 @@
 # WindowsGSM.Factorio
-🧩 WindowsGSM plugin for supporting Factorio
+⚠Work-In-Progress⚠ 🧩 WindowsGSM plugin for supporting Factorio
 
 ## Requirements
 [WindowsGSM](https://github.com/WindowsGSM/WindowsGSM) >= 1.21.0
