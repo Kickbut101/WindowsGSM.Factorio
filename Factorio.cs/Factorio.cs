@@ -173,11 +173,11 @@ namespace WindowsGSM.Plugins
             var localBuild = new Installer.SteamCMD();
             return localBuild.GetLocalBuild(_serverData.ServerID, AppId);
         }
-            */
+            *//*
         public async Task<string> Factorio.GetRemoteBuild()
         {
             var remoteBuild = new Installer.SteamCMDAgent();
             return await remoteBuild.GetRemoteBuild(AppId);
-        }
+        } */
     }
 }
